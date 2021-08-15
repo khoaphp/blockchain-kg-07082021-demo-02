@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="http://localhost:3000" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./layout.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./scripts/web3.js"></script>
+    <script src="./xuly.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+
+        <div id="header">
+            <div id="login">
+                <button id="btn_connect_MM">Connect Metamask (Login)</button>
+                <h3 id="welcome"></h3>
+            </div>
+            <div id="mm">
+                <a href="https://metamask.io/download.html" target="_blank">
+                    <img src="./images/mmdownload.png" alt="">
+                </a>
+            </div>
+        </div>
+        
+        <div id="middle">
+            <input type="text" id="txt_Money" placeholder="0 eth" />
+            <input type="text" id="txt_Content" placeholder="Lời nhắn" />
+            <input type="button" id="btn_Send" value="Send" />
+        </div>
+
+        <div id="footer">
+            <table id="tb_Clients">
+                <tr id="row1">
+                    <td>Address</td>
+                    <td>Money (ETH)</td>
+                    <td>Lời nhắn</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</body>
+</html>

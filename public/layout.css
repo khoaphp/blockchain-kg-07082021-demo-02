@@ -1,0 +1,9 @@
+body{background-color: black;}
+        #wrapper{width: 70%;margin: auto;}
+        #header, #middle, #footer{background-color: azure; margin-bottom: 10px; padding:10px}
+        #header, #middle{text-align: center;}
+        #tb_Clients{width: 100%; }
+        #tb_Clients tr td{text-align: center;}
+        #row1 td{background-color: black; color: yellow; padding: 3px;}
+        .row td{border-bottom: solid 1px gainsboro; padding: 3px}
+#mm a img{width: 70%;}
